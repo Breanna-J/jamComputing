@@ -1,0 +1,61 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+*{
+    font-family: "Courier New";
+    font-weight: lighter;
+    background-color: #ffebeb;
+}
+:root{
+    --blush: #ffebeb ;
+    --lightPink: #fa8cb4;
+    --mediumPink: #e8206a;
+    --darkPink:#ad0342;
+    --yellow: #fff02a;
+    --gray:#e9ece9;
+    --black: #000;
+    --white:#fff;
+    --blue: #d5fffe;
+}
+
+
+
+body{
+    margin: 0;
+}
+
+.home-logo{
+    height: 10vw;
+    border: none;
+    margin-left: 2vw;
+}
+.nav-menu-button{
+    align-items: end;
+}
+
+.title{
+    font-size: 60px;
+}
+.container{
+    position: realative;
+    width: 100%;
+    height: 740px;
+    background-image: url("./images/sanAntonioSkylineLargeFinal.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.midplane, .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.midline{
+    height: 100%;
+    width: 100%;
+
+}
