@@ -1,8 +1,4 @@
-*{
-    font-family: "Courier New";
-    font-weight: lighter;
 
-}
 :root{
     --blush: #ffebeb ;
     --lightPink: #fa8cb4;
@@ -23,22 +19,30 @@
     width:98%;
     padding-left: 2vw;
     background-color: #ffebeb;
+    font-family: "Courier New";
+    font-weight: lighter;
 
 }
 
 body{
     margin: 0;
+    font-family: "Courier New";
+    font-weight: lighter;
 }
 button{
     font-size: 1.5vw;
     border: none;
     background-color: var(--blush);
     background-opacity: 0.8;
+    font-family: "Courier New";
+    font-weight: lighter;
 }
 
 .menu-buttons{
     margin-right: 5px;
     margin-left: 5px;
+
+
 }
 
 .hero-container{
@@ -61,7 +65,7 @@ button{
 .container{
     position: realative;
     width: 100%;
-    height: 90vh;
+    height: 65vh;
     background-image: url("./images/sanAntonioSkylineLargeFinal.png");
     background-size:cover;
     background-repeat: no-repeat;
@@ -70,7 +74,7 @@ button{
 }
 .mid-line, .content{
     position: absolute;
-    top: 50%;
+    top: 33%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin-top: 8vw;
@@ -78,7 +82,7 @@ button{
 }
 
 .mid-line{
-    height: 100%;
+    height:68%;
     width: 100%;
     background-color: #ffebeb;
     opacity: 0.65;
@@ -87,5 +91,8 @@ button{
 .content{
     text-align: center;
     font-family: "Courier New";
-    font-weight: bold;
+    color: black;
+
 }
+
+
