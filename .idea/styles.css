@@ -95,4 +95,37 @@ button{
 
 }
 
+.about-row{
+    display: flex;
+}
 
+.column{
+    flex:1;
+    padding: 20px;
+    font-size: 3vh;
+}
+h1{
+    padding-top: 20px;
+    padding-left:15%;
+
+}
+p{
+    padding-left: 5px;
+}
+strong{
+    font-weight: bolder ;
+}
+.about-image{
+    height: 30vw;
+    transform:translate(09%);
+    justify-self: end;
+
+}
+
+.about-image-background{
+    background-image: url("./images/ColArchLtGray.png");
+    width: 46vw;
+    background-repeat: no-repeat;
+
+
+}
