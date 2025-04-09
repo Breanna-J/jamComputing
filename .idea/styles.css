@@ -60,7 +60,7 @@ button{
 }
 
 .title{
-    font-size: 3vw;
+    font-size: 3.15vw;
 }
 .container{
     position: realative;
@@ -82,16 +82,18 @@ button{
 }
 
 .mid-line{
-    height:64%;
+    height:65.5%;
     width: 100%;
     background-color: #ffebeb;
-    opacity: 0.65;
+    opacity: 0.75;
 
 }
 .content{
     text-align: center;
     font-family: "Courier New";
     color: black;
+    font-size: 2.15vw;
+    font-weight: normal;
 
 }
 
@@ -113,6 +115,7 @@ h1{
     padding-left: 3vw;
     padding-right: 3vw;
     text-indent:2vw;
+    font-size: 2.15vw;
 }
 strong{
     font-weight: bold ;
@@ -123,4 +126,29 @@ strong{
 
 }
 
+.services-container{
+    background-color: #ffebeb;
+    display: grid;
+}
+.services-row{
+    display: flex;
+    justify-content: center;
+}
+.services-column{
+    width: 20%;
+    display: fixed;
+    justify-items: center;
+    padding: 20px;
+}
 
+.service-item-icon{
+    width: 10vw;
+}
+
+.service-button{
+    border: black solid 2px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 16px;
+}

@@ -11,9 +11,9 @@
 <header class="header-container">
     <div class="navbar"> <img class="home-logo" src="./images/JamComputingTransparent.png">
         <div class="menu-buttons">
-            <button href="index.html">About Me</button>
-            <button href="index.html">Portfolio</button>
-            <button href="index.html">Contact Me</button>
+            <a href="#about"><button >About Me</button></a>
+            <a href="#recent"><button>Portfolio</button></a>
+            <a href="#contact"><button href="index.html">Contact Me</button></a>
         </div>
     </div>
 </header>
@@ -49,45 +49,47 @@
     </div>
     <div id="services" class="services-container">
         <div class="services-row">
-            <div class="column">
-                <h1 class="services-header">Let's Build the Website Your Business Deserves</h1>
-            </div>
+            <h1 class="services-header">Let's Build the Website Your Business Deserves</h1>
         </div>
         <div class="services-row">
-            <div class="column">
-                <img class="service-item-icon" src="" alt=""></img>
+            <div class="services-column">
+                <img class="service-item-icon" src="./images/customImg2.png" alt="an image of a laptop with code on it"></img>
                 <h3 class="service-item-header">Custom Websites</h3>
                 <p class="service-item-text">Pixel-perfect, responsive sites built from the ground up for performance and growth.</p>
             </div>
-            <div class="column">
-                <img class="service-item-icon" src="" alt=""></img>
+            <div class="services-column">
+                <img class="service-item-icon" src="./images/shopifyImg.png" alt="image of a shopify shopping bag"></img>
                 <h3 class="service-item-header">Shopify Design and Setup</h3>
                 <p class="service-item-text">Beautiful, functional eCommerce sites that are easy to manage and ready to sell.</p>
             </div>
-            <div class="column">
-                <img class="service-item-icon" src="" alt=""></img>
+            <div class="services-column">
+                <img class="service-item-icon" src="./images/refresherImg.png" alt="image of a refresh button"></img>
                 <h3 class="service-item-header">Website Refreshers</h3>
                 <p class="service-item-text">Got an old site? I'll bring it up to modern standards and make it shine.</p>
             </div>
-            <div class="column">
-                <img class="service-item-icon" src="" alt=""></img>
+        </div>
+        <div class="services-row">
+            <div class="services-column">
+                <img class="service-item-icon" src="./images/guidanceImg.png" alt="an image of arrows in three directions starting from one point"></img>
                 <h3 class="service-item-header">Tech Guidance</h3>
                 <p class="service-item-text">Not Sure what you need? I'll help you choose the right path, no tech talk required.</p>
             </div>
-            <div class="column">
-                <img class="service-item-icon" src="" alt=""></img>
+            <div class="services-column">
+                <img class="service-item-icon" src="./images/maintenanceImg.png" alt="image of a cog wheel hovering over a hand"></img>
                 <h3 class="service-item-header">Website Maintenance Plans</h3>
                 <p class="service-item-text">Don't want to worry about the website at all? I'll handle everything from monthly maintainence checks to posting listings for you.</p>
             </div>
-            <div class="column">
-                <img class="service-item-icon" src="" alt=""></img>
+            <div class="services-column">
+                <img class="service-item-icon" src="./images/optimizationImg.png" alt="image of a rocket ship"></img>
                 <h3 class="service-item-header">Search Engine Optimization</h3>
                 <p class="service-item-text">Want to appear higher in searches? I can make sure your website is at the front of the line of your ideal customer's search.</p>
             </div>
+        </div>
+        <div class="services-row">
             <button class="service-button">Tell Me About Your Project!</button>
         </div>
     </div>
-    <div class="recent-container">
+    <div id="recent" class="recent-container">
         <div class="recent-row">
             <div class="recent-column">
                 <img class="recent-image" src="" alt=""></img>
@@ -118,7 +120,7 @@
             </div>
         </div>
     </div>
-    <div class="testimonials-container">
+    <div id="testimonials" class="testimonials-container">
         <div class="testimonials-row">
             <div class="column">
                 <img class="testimonials-image"></img>
@@ -137,7 +139,7 @@
             </div>
         </div>
     </div>
-    <div class="contact-container">
+    <div id="contact" class="contact-container">
         <div class="contact-row">
             <div class="column">
                 <h1 class="contact-header"></h1>

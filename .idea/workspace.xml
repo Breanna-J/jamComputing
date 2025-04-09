@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b93cd7d-a09e-439b-8c23-ca350b912bd9" name="Changes" comment="added about me section">
+    <list default="true" id="9b93cd7d-a09e-439b-8c23-ca350b912bd9" name="Changes" comment="created services, testimonials, and contact form sections">
       <change beforePath="$PROJECT_DIR$/.idea/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -95,7 +94,7 @@
       <updated>1743621411605</updated>
       <workItem from="1743621413339" duration="24609000" />
       <workItem from="1744136088201" duration="7927000" />
-      <workItem from="1744213058421" duration="7494000" />
+      <workItem from="1744213058421" duration="11491000" />
     </task>
     <task id="LOCAL-00001" summary="created index and ignore files">
       <option name="closed" value="true" />
@@ -153,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744156705698</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="created services, testimonials, and contact form sections">
+      <option name="closed" value="true" />
+      <created>1744223966819</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1744223966819</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +185,7 @@
     <MESSAGE value="hero section-opacity and order" />
     <MESSAGE value="adding about me section with h1, paragraph, and image." />
     <MESSAGE value="added about me section" />
-    <option name="LAST_COMMIT_MESSAGE" value="added about me section" />
+    <MESSAGE value="created services, testimonials, and contact form sections" />
+    <option name="LAST_COMMIT_MESSAGE" value="created services, testimonials, and contact form sections" />
   </component>
 </project>
