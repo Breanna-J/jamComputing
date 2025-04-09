@@ -3,7 +3,7 @@
     --blush: #ffebeb ;
     --lightPink: #fa8cb4;
     --mediumPink: #e8206a;
-    --darkPink:#ad0342;
+    --grayPink:#afa2a2;
     --yellow: #fff02a;
     --gray:#e9ece9;
     --black: #000;
@@ -65,7 +65,7 @@ button{
 .container{
     position: realative;
     width: 100%;
-    height: 65vh;
+    height: 64vh;
     background-image: url("./images/sanAntonioSkylineLargeFinal.png");
     background-size:cover;
     background-repeat: no-repeat;
@@ -77,12 +77,12 @@ button{
     top: 33%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 8vw;
+    margin-top: 7vw;
 
 }
 
 .mid-line{
-    height:68%;
+    height:64%;
     width: 100%;
     background-color: #ffebeb;
     opacity: 0.65;
@@ -102,30 +102,25 @@ button{
 .column{
     flex:1;
     padding: 20px;
-    font-size: 3vh;
+    font-size: 2.5vw;
 }
 h1{
     padding-top: 20px;
-    padding-left:15%;
+    justify-self: center;
 
 }
-p{
-    padding-left: 5px;
+.about-content{
+    padding-left: 3vw;
+    padding-right: 3vw;
+    text-indent:2vw;
 }
 strong{
-    font-weight: bolder ;
+    font-weight: bold ;
 }
 .about-image{
-    height: 30vw;
-    transform:translate(09%);
+    height: 52vw;
     justify-self: end;
 
 }
 
-.about-image-background{
-    background-image: url("./images/ColArchLtGray.png");
-    width: 46vw;
-    background-repeat: no-repeat;
 
-
-}
