@@ -104,6 +104,7 @@ button{
 .column{
     flex:1;
     padding: 20px;
+
     font-size: 2.5vw;
 }
 h1{
@@ -112,10 +113,11 @@ h1{
 
 }
 .about-content{
-    padding-left: 3vw;
-    padding-right: 3vw;
+    padding-top: 5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
     text-indent:2vw;
-    font-size: 2.15vw;
+    font-size: 2vw;
 }
 strong{
     font-weight: bold ;
@@ -129,10 +131,17 @@ strong{
 .services-container{
     background-color: #ffebeb;
     display: grid;
+    padding-top: 40px;
+    padding-bottom: 14vw;
+    mask:
+        radial-gradient(7vw at 75% 100%,#0000 98%,#000) 50% calc(100% - 7vw)/28vw 100% repeat-x,
+        radial-gradient(7vw at 25% 50% ,#000 99%,#0000 101%) bottom/28vw 14vw repeat-x;
 }
 .services-row{
     display: flex;
     justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .services-column{
     width: 20%;
@@ -142,7 +151,7 @@ strong{
 }
 
 .service-item-icon{
-    width: 10vw;
+    width: 8vw;
 }
 
 .service-button{
@@ -152,3 +161,38 @@ strong{
     color: white;
     padding: 16px;
 }
+
+.recent-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./images/pinkBackground.png");
+    margin-top: -14vw;
+    padding-top: 14vw;
+    padding-bottom: 5vw;
+}
+
+.recent-column{
+    background-color: #ffffff;
+    width: 25vw;
+    height: 35vw;
+    padding: 12px;
+    padding-top: 2vw;
+    border-radius: 10px;
+    display: inline-grid;
+    margin: 10px;
+    justify-items: center;
+}
+.recent-video{
+    width: 20vw;
+    height: 15vw;
+    background-color: #ffebeb;
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-grid;
+    justify-items: center;
+    align-content: center;
+
+}
+
