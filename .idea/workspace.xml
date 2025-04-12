@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b93cd7d-a09e-439b-8c23-ca350b912bd9" name="Changes" comment="added recents and videos">
-      <change beforePath="$PROJECT_DIR$/.idea/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/styles.css" afterDir="false" />
+    <list default="true" id="9b93cd7d-a09e-439b-8c23-ca350b912bd9" name="Changes" comment="adjusting recents text">
+      <change beforePath="$PROJECT_DIR$/.idea/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,27 +45,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.index.html.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jamco/source/repos/jamComputing/.idea/images",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "show.migrate.to.gradle.popup": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jamco/source/repos/jamComputing/.idea/images&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jamco\source\repos\jamComputing\.idea\images" />
@@ -93,7 +94,8 @@
       <updated>1743621411605</updated>
       <workItem from="1743621413339" duration="24609000" />
       <workItem from="1744136088201" duration="7927000" />
-      <workItem from="1744213058421" duration="22318000" />
+      <workItem from="1744213058421" duration="23033000" />
+      <workItem from="1744418902589" duration="610000" />
     </task>
     <task id="LOCAL-00001" summary="created index and ignore files">
       <option name="closed" value="true" />
@@ -175,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744301818103</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="adjusting recents text">
+      <option name="closed" value="true" />
+      <created>1744302222464</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1744302222464</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +213,7 @@
     <MESSAGE value="created services, testimonials, and contact form sections" />
     <MESSAGE value="adding images and formatting" />
     <MESSAGE value="added recents and videos" />
-    <option name="LAST_COMMIT_MESSAGE" value="added recents and videos" />
+    <MESSAGE value="adjusting recents text" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjusting recents text" />
   </component>
 </project>
