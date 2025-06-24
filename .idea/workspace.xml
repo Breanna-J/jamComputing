@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b93cd7d-a09e-439b-8c23-ca350b912bd9" name="Changes" comment="adding testimonials">
+    <list default="true" id="9b93cd7d-a09e-439b-8c23-ca350b912bd9" name="Changes" comment="adding form and getting it to email me">
       <change beforePath="$PROJECT_DIR$/.idea/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -31,12 +31,12 @@
     &quot;assignee&quot;: &quot;Breanna-J&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Breanna-J/jamComputing.git&quot;,
-    &quot;accountId&quot;: &quot;932d5a7c-f1d4-4081-83e6-2df592b3c795&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Breanna-J/jamComputing.git",
+    "accountId": "61871159-aa54-4782-a78e-36f643336394"
   }
-}</component>
+}]]></component>
   <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
   <component name="KubernetesApiProvider"><![CDATA[{
   "isMigrated": true
@@ -103,7 +103,7 @@
       <workItem from="1744418902589" duration="1408000" />
       <workItem from="1746021437667" duration="700000" />
       <workItem from="1749144793114" duration="9364000" />
-      <workItem from="1750797074263" duration="1526000" />
+      <workItem from="1750797074263" duration="4537000" />
     </task>
     <task id="LOCAL-00001" summary="created index and ignore files">
       <option name="closed" value="true" />
@@ -201,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744486726785</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="adding form and getting it to email me">
+      <option name="closed" value="true" />
+      <created>1750798727234</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1750798727234</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +239,7 @@
     <MESSAGE value="added recents and videos" />
     <MESSAGE value="adjusting recents text" />
     <MESSAGE value="adding testimonials" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding testimonials" />
+    <MESSAGE value="adding form and getting it to email me" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding form and getting it to email me" />
   </component>
 </project>

@@ -236,12 +236,43 @@ strong{
 
 }
 
-
 .testimonials-name{
     font-size: 1.5vw;
 }
 
 .testimonials-text{
     font-size: 1.25vw;
+}
 
+.contact-row{
+    display: grid;
+    justify-self: center;
+}
+
+.contact-form-input{
+    height: 4vh;
+    width:60vw;
+}
+
+#neverShareEmail{
+    font-size: 1.25vw;
+    justify-self: center;
+}
+
+label{
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+#contact-submit{
+    justify-self: center;
+    background-color: #ffebeb;
+    border-color: #fa8cb4;
+    color: black;
+    border-radius: 15px;
+    padding: 15px 32px;
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
