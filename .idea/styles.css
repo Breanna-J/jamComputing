@@ -118,8 +118,7 @@ h1{
 }
 .about-content{
     padding-top: 5vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    padding-left: 10vw;
     text-indent:2vw;
     font-size: 1.5vw;
 }
@@ -128,6 +127,7 @@ strong{
 }
 .about-image{
     height: 35vw;
+    padding-right: 6vw;
     justify-self: end;
 
 }
@@ -220,27 +220,19 @@ strong{
     align-items: center;
     justify-content: center;
     background-image: url("./images/pinkBackground.png");
-    padding-top: 14vw;
-    padding-bottom: 5vw;
-}
-
-.testimonials-column{
-    width: 25vw;
-    height: 35vw;
-    padding: 20px;
-    padding-top: 2vw;
-    border-radius: 10px;
-    display: inline-grid;
-    align-items: center;
-    margin: 10px;
-
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 .testimonials-name{
+
     font-size: 1.5vw;
 }
 
 .testimonials-text{
+
     font-size: 1.25vw;
 }
 
