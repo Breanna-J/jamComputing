@@ -60,7 +60,11 @@ button{
 }
 
 .title{
-    font-size: 3.15vw;
+    margin-top: 5%;
+    font-size: 2.75vw;
+}
+.subtitle{
+    font-size: 2.15vw;
 }
 .container{
     position: realative;
@@ -105,7 +109,7 @@ button{
     flex:1;
     padding: 20px;
 
-    font-size: 2.5vw;
+    font-size: 2.15vw;
 }
 h1{
     padding-top: 20px;
@@ -117,13 +121,13 @@ h1{
     padding-left: 5vw;
     padding-right: 5vw;
     text-indent:2vw;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 strong{
     font-weight: bold ;
 }
 .about-image{
-    height: 52vw;
+    height: 35vw;
     justify-self: end;
 
 }
@@ -163,8 +167,8 @@ strong{
 }
 
 .recent-container{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    direction: column;
     align-items: center;
     justify-content: center;
     background-image: url("./images/pinkBackground.png");
@@ -177,30 +181,67 @@ strong{
     background-color: #ffffff;
     width: 25vw;
     height: 35vw;
-    padding: 12px;
+    padding: 20px;
     padding-top: 2vw;
     border-radius: 10px;
     display: inline-grid;
+    align-items: center;
     margin: 10px;
-    justify-items: center;
+
 }
 .recent-video{
     width: 20vw;
-    height: 15vw;
+    height: 10vw;
     background-color: #ffebeb;
-    padding: 5px;
+    padding: 15px;
     border-radius: 10px;
-    display: inline-grid;
-    justify-items: center;
+    display: grid;
     align-content: center;
+    justify-self: center;
+
+}
+.recent-title{
+    justify-self: center;
+    align-items: center;
 
 }
 .recent-description{
-    justify-self: left;
     padding-left: 20px;
     padding-right: 20px;
 }
+
 .recent-list{
     justify-self: left;
 }
 
+.testimonials-container{
+    display: inline-grid;
+    direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./images/pinkBackground.png");
+    padding-top: 14vw;
+    padding-bottom: 5vw;
+}
+
+.testimonials-column{
+    width: 25vw;
+    height: 35vw;
+    padding: 20px;
+    padding-top: 2vw;
+    border-radius: 10px;
+    display: inline-grid;
+    align-items: center;
+    margin: 10px;
+
+}
+
+
+.testimonials-name{
+    font-size: 1.5vw;
+}
+
+.testimonials-text{
+    font-size: 1.25vw;
+
+}

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b93cd7d-a09e-439b-8c23-ca350b912bd9" name="Changes" comment="adjusting recents text">
+    <list default="true" id="9b93cd7d-a09e-439b-8c23-ca350b912bd9" name="Changes" comment="adding testimonials">
       <change beforePath="$PROJECT_DIR$/.idea/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,11 +37,14 @@
     &quot;accountId&quot;: &quot;932d5a7c-f1d4-4081-83e6-2df592b3c795&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2vBbSBkxLM1GvbKBH4oExHzT4aR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -54,15 +58,16 @@
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jamco/source/repos/jamComputing/.idea/images&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jamco/source/repos/jamComputing&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.1.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -79,8 +84,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
       </set>
     </attachedChunks>
   </component>
@@ -95,7 +100,10 @@
       <workItem from="1743621413339" duration="24609000" />
       <workItem from="1744136088201" duration="7927000" />
       <workItem from="1744213058421" duration="23033000" />
-      <workItem from="1744418902589" duration="610000" />
+      <workItem from="1744418902589" duration="1408000" />
+      <workItem from="1746021437667" duration="700000" />
+      <workItem from="1749144793114" duration="9364000" />
+      <workItem from="1750797074263" duration="1526000" />
     </task>
     <task id="LOCAL-00001" summary="created index and ignore files">
       <option name="closed" value="true" />
@@ -185,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744302222464</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="adding testimonials">
+      <option name="closed" value="true" />
+      <created>1744486726785</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744486726785</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +230,7 @@
     <MESSAGE value="adding images and formatting" />
     <MESSAGE value="added recents and videos" />
     <MESSAGE value="adjusting recents text" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjusting recents text" />
+    <MESSAGE value="adding testimonials" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding testimonials" />
   </component>
 </project>
