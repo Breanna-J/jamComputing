@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b93cd7d-a09e-439b-8c23-ca350b912bd9" name="Changes" comment="adding form and getting it to email me">
-      <change beforePath="$PROJECT_DIR$/.idea/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9b93cd7d-a09e-439b-8c23-ca350b912bd9" name="Changes" comment="fixing about image and page padding" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +99,7 @@
       <workItem from="1744418902589" duration="1408000" />
       <workItem from="1746021437667" duration="700000" />
       <workItem from="1749144793114" duration="9364000" />
-      <workItem from="1750797074263" duration="5909000" />
+      <workItem from="1750797074263" duration="7438000" />
     </task>
     <task id="LOCAL-00001" summary="created index and ignore files">
       <option name="closed" value="true" />
@@ -217,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750802050993</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fixing about image and page padding">
+      <option name="closed" value="true" />
+      <created>1750803223418</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1750803223418</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +232,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -248,6 +258,7 @@
     <MESSAGE value="adjusting recents text" />
     <MESSAGE value="adding testimonials" />
     <MESSAGE value="adding form and getting it to email me" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding form and getting it to email me" />
+    <MESSAGE value="fixing about image and page padding" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing about image and page padding" />
   </component>
 </project>
