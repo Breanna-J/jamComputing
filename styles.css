@@ -213,6 +213,7 @@ strong{
 .testimonials-container{
     display: inline-flex;
     justify-content: center;
+    width:100vw;
     background-image: url("/images/pinkBackground.png");
 
 }
