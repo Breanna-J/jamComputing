@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b93cd7d-a09e-439b-8c23-ca350b912bd9" name="Changes" comment="made buttons the same in styling">
+    <list default="true" id="9b93cd7d-a09e-439b-8c23-ca350b912bd9" name="Changes" comment="cleaning up code">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workspace.xml" afterDir="false" />
     </list>
@@ -103,7 +103,7 @@
       <workItem from="1744418902589" duration="1408000" />
       <workItem from="1746021437667" duration="700000" />
       <workItem from="1749144793114" duration="9364000" />
-      <workItem from="1750797074263" duration="15076000" />
+      <workItem from="1750797074263" duration="16315000" />
     </task>
     <task id="LOCAL-00001" summary="created index and ignore files">
       <option name="closed" value="true" />
@@ -273,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750962910287</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="cleaning up code">
+      <option name="closed" value="true" />
+      <created>1750963246505</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1750963246505</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,6 +323,7 @@
     <MESSAGE value="move from idea to root" />
     <MESSAGE value="added hrefs to buttons" />
     <MESSAGE value="made buttons the same in styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="made buttons the same in styling" />
+    <MESSAGE value="cleaning up code" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaning up code" />
   </component>
 </project>
