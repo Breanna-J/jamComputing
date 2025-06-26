@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b93cd7d-a09e-439b-8c23-ca350b912bd9" name="Changes" comment="add modal logic">
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+    <list default="true" id="9b93cd7d-a09e-439b-8c23-ca350b912bd9" name="Changes" comment="fixed js">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +104,7 @@
       <workItem from="1744418902589" duration="1408000" />
       <workItem from="1746021437667" duration="700000" />
       <workItem from="1749144793114" duration="9364000" />
-      <workItem from="1750797074263" duration="24237000" />
+      <workItem from="1750797074263" duration="24551000" />
     </task>
     <task id="LOCAL-00001" summary="created index and ignore files">
       <option name="closed" value="true" />
@@ -386,7 +386,23 @@
       <option name="project" value="LOCAL" />
       <updated>1750972768057</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="change button padding">
+      <option name="closed" value="true" />
+      <created>1750972825344</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1750972825344</updated>
+    </task>
+    <task id="LOCAL-00037" summary="fixed js">
+      <option name="closed" value="true" />
+      <created>1750973034040</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1750973034040</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,9 +426,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adding about me section with h1, paragraph, and image." />
-    <MESSAGE value="added about me section" />
-    <MESSAGE value="created services, testimonials, and contact form sections" />
     <MESSAGE value="adding images and formatting" />
     <MESSAGE value="added recents and videos" />
     <MESSAGE value="adjusting recents text" />
@@ -435,6 +448,9 @@
     <MESSAGE value="hide second testimonial" />
     <MESSAGE value="change testimonials width" />
     <MESSAGE value="add modal logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="add modal logic" />
+    <MESSAGE value="change button padding" />
+    <MESSAGE value="fixes js" />
+    <MESSAGE value="fixed js" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed js" />
   </component>
 </project>
