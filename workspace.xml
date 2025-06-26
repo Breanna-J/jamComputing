@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b93cd7d-a09e-439b-8c23-ca350b912bd9" name="Changes" comment="adding a contact modal">
-      <change afterPath="$PROJECT_DIR$/success.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9b93cd7d-a09e-439b-8c23-ca350b912bd9" name="Changes" comment="added modals to buttons" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +101,7 @@
       <workItem from="1744418902589" duration="1408000" />
       <workItem from="1746021437667" duration="700000" />
       <workItem from="1749144793114" duration="9364000" />
-      <workItem from="1750797074263" duration="21933000" />
+      <workItem from="1750797074263" duration="22336000" />
     </task>
     <task id="LOCAL-00001" summary="created index and ignore files">
       <option name="closed" value="true" />
@@ -323,7 +319,23 @@
       <option name="project" value="LOCAL" />
       <updated>1750967244185</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="added modals to buttons">
+      <option name="closed" value="true" />
+      <created>1750970514102</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1750970514102</updated>
+    </task>
+    <task id="LOCAL-00029" summary="added modals to buttons">
+      <option name="closed" value="true" />
+      <created>1750970870062</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1750970870062</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +359,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="created index and ignore files" />
     <MESSAGE value="started header section content and added color to css" />
     <MESSAGE value="header section and nav" />
     <MESSAGE value="hero section" />
@@ -372,6 +383,7 @@
     <MESSAGE value="remove captcha and add honeypot" />
     <MESSAGE value="fixed name for messages" />
     <MESSAGE value="adding a contact modal" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding a contact modal" />
+    <MESSAGE value="added modals to buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="added modals to buttons" />
   </component>
 </project>
