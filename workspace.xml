@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b93cd7d-a09e-439b-8c23-ca350b912bd9" name="Changes" comment="fixing photo width">
+    <list default="true" id="9b93cd7d-a09e-439b-8c23-ca350b912bd9" name="Changes" comment="changed email for form submit">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workspace.xml" afterDir="false" />
     </list>
@@ -103,7 +103,7 @@
       <workItem from="1744418902589" duration="1408000" />
       <workItem from="1746021437667" duration="700000" />
       <workItem from="1749144793114" duration="9364000" />
-      <workItem from="1750797074263" duration="17379000" />
+      <workItem from="1750797074263" duration="18666000" />
     </task>
     <task id="LOCAL-00001" summary="created index and ignore files">
       <option name="closed" value="true" />
@@ -297,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750965309167</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="changed email for form submit">
+      <option name="closed" value="true" />
+      <created>1750965880724</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1750965880724</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,6 +350,7 @@
     <MESSAGE value="cleaning up code" />
     <MESSAGE value="fixing form and adding names to inputs" />
     <MESSAGE value="fixing photo width" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing photo width" />
+    <MESSAGE value="changed email for form submit" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed email for form submit" />
   </component>
 </project>
