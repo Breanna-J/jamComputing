@@ -6,6 +6,7 @@
     <meta name="description" content="Professional web designer portfolio for jam Computing in San Antonio, TX." />
     <title>jam Computing</title>
     <link rel="stylesheet" href="styles.css"/>
+    <link rel="javascript" href="script.js"/>
 </head>
 <body>
 <header class="header-container">
@@ -13,11 +14,37 @@
         <div class="menu-buttons">
             <a href="#about"><button class="btn">About Me</button></a>
             <a href="#recent"><button class="btn">Portfolio</button></a>
-            <a href="#contact"><button class="btn">Contact Me</button></a>
+            <a><button class="btn open-modal">Contact Me</button></a>
         </div>
     </div>
 </header>
 <main>
+    <!-- Contact Modal -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h1 class="contact-header">Let's Connect!</h1>
+            <form class="contact-form" action="https://formsubmit.co/c2f864357a9a129ca7eb841ff664946a" method="POST">
+                <input type="text" name="_honey" style="display: none;">
+                <input type="hidden" name="_captcha" style="display: none;">
+                <input type="hidden" name="_next" value="https://jamcomputing.com/success.htm">
+                <label>Name</label><br>
+                <input class="contact-form-input" type="text" name="name" aria-label="Name" required/>
+                <br>
+                <label>Email</label><br>
+                <input class="contact-form-input" type="email" name="email" aria-label="Email" required/>
+                <div id="neverShareEmail"> I will never share your information with anyone else.</div>
+
+                <label>Phone Number</label><br>
+                <input class="contact-form-input" type="number" name="phone" aria-label="Phone Number"/>
+                <br>
+                <label>How can I help you?</label><br>
+                <input class="contact-form-input" type="text" name="message" aria-label="How can I help you?"/>
+                <br><br>
+                <button id="contact-submit" type="submit" value="Submit">Submit</button>
+            </form>
+        </div>
+    </div>
     <div id="hero" class="container">
         <div>
             <div class="mid-line"></div>
@@ -28,7 +55,7 @@
                     <h1 class="title">Websites Designed for Your Customers <br> &amp; Built for Your Growth</h1>
                     <h3 class="subtitle">Hi, I’m Breanna Jones — a web developer based in <strong>San Antonio, Texas</strong>.
                         I specialize in building websites that not only look great but also help small to medium-sized businesses thrive. </h3>
-                    <a href="#contact"><button class="btn">Let's Work Together</button></a>
+                    <button class="btn open-modal">Let's Work Together</button>
                 </div>
             </div>
         </div>
@@ -177,4 +204,26 @@
 
 </main>
 </body>
+<script>
+    const modal = document.getElementById("contactModal");
+    const openButtons = document.querySelectorAll(".open-modal");
+    const closeButton = document.querySelector(".close-button");
+
+    openButtons.forEach(button => {
+        button.addEventListener("click", () => {
+            modal.style.display = "block";
+        });
+    });
+
+    closeButton.addEventListener("click", () => {
+        modal.style.display = "none";
+    });
+
+    // Close modal if user clicks outside the modal content
+    window.addEventListener("click", (event) => {
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    });
+</script>
 </html>
