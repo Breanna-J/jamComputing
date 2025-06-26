@@ -31,7 +31,6 @@ body{
 }
 button{
     font-size: 1.5vw;
-    border: none;
     border-radius: 10px;
     background-color: var(--blush);
     font-family: "Courier New", serif;
@@ -258,8 +257,18 @@ label{
     font-size: 1.5vw;
     font-weight: bold;
 }
-#contact-submit{
+.btn{
     justify-self: center;
+    background-color: #ffebeb;
+    border-color: #fa8cb4;
+    color: black;
+    border-radius: 15px;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+#contact-submit{
     background-color: #ffebeb;
     border-color: #fa8cb4;
     color: black;
